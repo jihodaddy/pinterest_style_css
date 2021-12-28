@@ -1,0 +1,25 @@
+/* section.css */
+
+#main-section{
+    width: 920px;
+    margin: 0 auto;
+}
+
+/* 세줄 */
+@media (max-width: 919px){
+    #main-section{width: 690px;}
+}
+
+/* 네줄 */
+@media (max-width:930px) and (max-width:1149px){
+    #main-section{width:920px}
+}
+/* 다섯줄 */
+@media (max-width:1150px) and (max-width:1379px){
+    #main-section{width:1150px}
+}
+/* 여섯줄 */
+@media (min-width:1380px){
+    #main-section{width:1380px}
+}
+

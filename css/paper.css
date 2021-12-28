@@ -1,0 +1,30 @@
+/* paper.css */
+
+.paper{
+    width: 190px;
+    margin-top: 10px;
+    padding: 15px 15px 0;
+    font-size: 11px;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    display: inline-block;
+}
+.paper-content{
+    margin: 0 -15px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #f2f0f0;
+    overflow: hidden;
+}
+.paper-description{
+    margin: 10px 0;
+}
+.paper-link{
+    display: block;
+    float: left;
+}
+.paper-text{
+    float: left;
+    width: 150px;
+    margin-left: 10px;
+}
